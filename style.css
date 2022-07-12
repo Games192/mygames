@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-image: url(https://j.gifs.com/wpm0JM.gif);
+	background-position: center;
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 50px;
+    font-size: 30px;
+	border: 1px solid white;
+	padding: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border-radius: 5px;
+}
+.select{
+	padding: 8px 12px;
+    margin-left: 40px;
+	height: 90px;
+	width: 150px;
+	color: black;
+	background-color: white;
+	border: 1px solid white;
+	cursor: pointer;
+	border-radius: 15px;
+}
+.select:focus,
+.select:hover{
+	outline: black;
+	border: 1px solid gray;
+	background-color: lightblue;
+}
+.select option{
+	background: white;
+}
+.img{
+	padding: 20px;
+	height: 100px;
+	width: 100px;
+}
